@@ -1,6 +1,7 @@
 # Laboratory 9. Take Control: The PID Feedback Controller
 Megan Fister, Aashika Uppala
 4/9/2025
+
 Introduction or Summary
 Project Goal:
 The objective of this lab is to implement a PID (Proportional-Integral-Derivative) feedback controller on an Arduino-based robot to maintain a specified distance from a wall or object using an ultrasonic sensor.
