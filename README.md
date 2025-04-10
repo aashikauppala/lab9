@@ -132,6 +132,8 @@ We did not do part 3 in this lab.
 We successfully implemented a PID control using the distance measurement from the ultrasonic sensor.
 ### Part 2 - Keep Your Distance
 Our robot successfully detected an object and carefully moved back and forth to maintain the required distance and avoid a collision.
+### Part 3 – Wall follower
+We did not do part 3 in this lab.
 ### Final Code
 ```c++
 /*  SparkFun Inventor’s Kit
