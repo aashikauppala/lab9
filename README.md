@@ -1,4 +1,4 @@
-# Laboratory 9. Take Control: The PID Feedback Controller
+# Laboratory 9 - Take Control: The PID Feedback Controller
 Megan Fister, Aashika Uppala
 
 4/9/2025
@@ -129,7 +129,9 @@ We did not do part 3 in this lab.
 
 ## Results
 ### Part 1 - PID Use
+We successfully implemented a PID control using the distance measurement from the ultrasonic sensor.
 ### Part 2 - Keep Your Distance
+Our robot successfully detected an object and carefully moved back and forth to maintain the required distance and avoid a collision.
 ### Final Code
 ```c++
 /*  SparkFun Inventor’s Kit
