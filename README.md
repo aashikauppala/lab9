@@ -1,15 +1,20 @@
 # Laboratory 9. Take Control: The PID Feedback Controller
 Megan Fister, Aashika Uppala
+
 4/9/2025
 
 ## Introduction or Summary
-Project Goal:
-The objective of this lab is to implement a PID (Proportional-Integral-Derivative) feedback controller on an Arduino-based robot to maintain a specified distance from a wall or object using an ultrasonic sensor.
-Summary of Work Performed:
-We began by installing the PID_V2 library in the Arduino IDE and modifying the existing sketch to define and initialize the PID controller. Using sensor data from an ultrasonic module, we calculated the error between the setpoint and the actual distance to control the motor speeds accordingly. The output of the PID controller was mapped to adjust motor power and direction to maintain or correct the robot’s position. In the second part, we developed a function that allowed the robot to respond to distance changes by moving forward or backward. In the final part, we implemented a wall-following feature by adjusting each motor’s speed independently based on PID output, enabling the robot to follow a wall while maintaining a fixed lateral distance.
-Summary of Outcome:
-The PID controller was successfully implemented and tuned to allow the robot to stabilize at a set distance from a wall. Furthermore, the wall-following functionality enabled the robot to dynamically adjust its movement and follow a path while maintaining a consistent distance from the side barrier.
+_Project Goal_
 
+The objective of this lab is to implement a PID (Proportional-Integral-Derivative) feedback controller on an Arduino-based robot to maintain a specified distance from a wall or object using an ultrasonic sensor.
+
+_Summary of Work Performed_
+
+We began by installing the PID_V2 library in the Arduino IDE and modifying the existing sketch to define and initialize the PID controller. Using sensor data from an ultrasonic module, we calculated the error between the setpoint and the actual distance to control the motor speeds accordingly. The output of the PID controller was mapped to adjust motor power and direction to maintain or correct the robot’s position. In the second part, we developed a function that allowed the robot to respond to distance changes by moving forward or backward. In the final part, we implemented a wall-following feature by adjusting each motor’s speed independently based on PID output, enabling the robot to follow a wall while maintaining a fixed lateral distance.
+
+_Summary of Outcome_
+
+The PID controller was successfully implemented and tuned to allow the robot to stabilize at a set distance from a wall. Furthermore, the wall-following functionality enabled the robot to dynamically adjust its movement and follow a path while maintaining a consistent distance from the side barrier.
 
 ## Methods
 ### Instruments
